@@ -9,6 +9,13 @@
  2. 基于Werkzeug
  3. 暂时只支持mysql
 
+
+### 安装本项目
+pip install git+https://github.com/yubang/restSQL
+
+### 卸载本项目
+pip uninstall restSQL
+
 ### 第一个hello world！
 
 请查看index.py的代码，就是那么简单
@@ -49,4 +56,5 @@
 ### 支持与别的python web 框架相结合
 例子参考 bottle_demo.py
 
-### 权限控制模块正在开发中
+### 支持简单的权限控制
+参考index.py
